@@ -1,8 +1,8 @@
 import time
 from pybit.unified_trading import HTTP
 
-api_key = "TVUJ_API_KLIC"
-api_secret = "TVUJ_API_SECRET"
+api_key = "85WQVHsc8epCLTLcdm"
+api_secret = "9kkbVM8oasMB9mGOgmD4lB7kAVx44YSKGIri"
 
 session = HTTP(testnet=True, api_key=api_key, api_secret=api_secret)
 
