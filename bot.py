@@ -6,5 +6,5 @@ api_secret = "9kkbVM8oasMB9mGOgmD4lB7kAVx44YSKGIri"          # tvůj API Secret 
 
 session = HTTP(api_key=api_key, api_secret=api_secret, testnet=True)
 
-account_info = session.get_wallet_balance(accountType="UNIFIED")
+account_info = session.get_wallet_balance(accountType="CONTRACT")
 print(account_info)
